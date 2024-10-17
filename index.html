@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header>
+      <blockquote>
+        <p>Trabajo Práctico de JavaScript</p>
+    </blockquote>
+  
+    </header>
+    <div id="app"></div>
+   
+    <main>
+      <section id="contenedor">
+        <h1>Introducción al DOM</h1>
+        <h2>Ejercico 1: Cambiar color a los párrafos</h2>
+        <p >Este es el primero párrafo</p>
+        <p>Este es el segundo párrafo</p>
+        <p >Este es el tercer párrafo</p>
+        <button id="button">Cambiar color azul</button>
+      </section>
+  
+      <section>
+        <h2>Ejercico 2: Formulario con alerta</h2>
+        <label >Ingresa un texto: </label>
+        <input type="text" id="miCampoTexto">
+        <button id="buttonAlerta">Mostrar Alerta</button>
+      </section>
+  
+      <section>
+        
+        <h1>Eventos en DOM</h1>
+        <h2>Ejercicio1: Listas con Elementos</h2>
+        <ul id="miLista">
+          <li>Elemento 1</li>
+          <li>Elemento 2</li>
+          <li>Elemento 3</li>
+          <li>Elemento 4</li>
+        </ul>
+      </section>
+  
+      <section>
+        <h2>Ejercicio 2: Campo de texto y botones</h2>
+        <input type="text" placeholder="Ingrese algo" id="miCampo">
+        <button id="deshabilitarCampo"> Deshabilitar Campo</button>
+        <button id="habilitarCampo">Habilitar Campo</button>
+      </section>
+  
+      <section>
+        <h1>Local Storage</h1>
+        <h2>Ejercicio 1</h2>
+        <form >
+          <label for="">Correo Electrónico</label>
+          <input type="email" name="" id="email" placeholder="example@gmail.com">
+          <button id="buttonGuardar" type="button">Guardar Correo</button><!--  los botones tienen type="button" para evitar que envíen el formulario por defecto. -->
+           
+          <div>
+            <div>
+              <label for="emailDisplay">Correo guardado: </label>
+              <span id="emailDisplay"></span>
+          </div>
+          </div>
+          <div><button id="buttonEliminar" type="button">Eliminar Correo Guardado</button></div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>2024 Trabajo Práctico de JavaScript</p>
+    </footer>
+    <script src="./ejercicios.js"></script>
+  </body>
+
+
+</html>

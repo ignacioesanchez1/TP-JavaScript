@@ -1,0 +1,32 @@
+
+header blockquote{
+  background-color: rgba(112, 112, 112, 0.822);
+  color: white;
+  text-align: center;
+  padding: 7px;
+  margin: 0px;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: none;
+  text-decoration: none;
+   
+}
+
+.cambiarColorp p{
+  color:blue;
+}
+
+.disabled {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+.disabled:hover {
+  cursor: not-allowed;
+}
+
+footer{
+  background-color:  rgba(112, 112, 112, 0.822);
+  color: white;
+  padding-left: 10px;
+  margin: 0px;
+}
